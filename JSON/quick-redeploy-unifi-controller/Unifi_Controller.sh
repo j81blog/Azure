@@ -11,3 +11,4 @@ sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
 echo "echo \"\"" >> /etc/profile
 echo "echo \"Your management URL for your Unifi Controller is https://\`curl -s ipecho.net/plain; echo\`:8443\"" >> /etc/profile
 echo "echo \"\"" >> /etc/profile
+sudo reboot
